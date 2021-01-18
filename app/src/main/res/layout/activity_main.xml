@@ -4,67 +4,84 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
-
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="134dp"
-        android:layout_height="67dp"
-        android:background="#F9A825"
-        android:gravity="center"
-        android:text="anak1"
-        android:textSize="30dp" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="134dp"
-        android:layout_height="67dp"
-        android:background="#FF0000"
-        android:gravity="center"
-        android:text="anak2"
-        android:textSize="30dp" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="134dp"
-        android:layout_height="67dp"
-        android:background="#558B2F"
-        android:gravity="center"
-        android:text="anak3"
-        android:textSize="30dp" />
+    android:layout_height="match_parent">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_weight="1"
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/textView"
-            android:layout_width="134dp"
-            android:layout_height="67dp"
-            android:background="#283593"
-            android:gravity="center"
-            android:text="anak4"
-            android:textSize="30dp" />
-
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FF0000"
+            android:text="merah" />
         <TextView
-            android:id="@+id/textView"
-            android:layout_width="134dp"
-            android:layout_height="67dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#90D10F"
+            android:text="hijau" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
             android:background="#1565C0"
-            android:gravity="center"
-            android:text="anak5"
-            android:textSize="30dp" />
+            android:text="biru" />
 
         <TextView
-            android:id="@+id/textView"
-            android:layout_width="134dp"
-            android:layout_height="67dp"
-            android:background="#AD1457"
-            android:gravity="center"
-            android:text="anak6"
-            android:textSize="30dp" />
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#FFDE00"
+            android:layout_weight="1"
+            android:text="kuning" />
+
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FF0000"
+            android:text="merah" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#90D10F"
+            android:text="hijau" />
+
+        <TextView
+            android:layout_width="421dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#1565C0"
+            android:text="biru" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FFDE00"
+            android:text="kuning" />
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
 </LinearLayout>
